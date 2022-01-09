@@ -79,7 +79,7 @@ def course_cycles(call):
     bot.send_photo(call.message.chat.id, photo=open("content/Цикл for.png", 'rb'))
     bot.send_message(call.message.chat.id, "Цикл как бы бежит 🏃 по списку, перебирая его элементы и присвайвая их значения в нашем случаем переменной i")
     bot.send_photo(call.message.chat.id, photo=open("content/Цикл while.png", 'rb'))
-    bot.send_message(call.message.chat.id, "Цикл while работает, пока не выполнит то или иное условие", reply_markup=complete_stage)
+    bot.send_message(call.message.chat.id, "Цикл while работает, пока не выполнит, то или иное условие", reply_markup=complete_stage)
     bot.send_photo(call.message.chat.id, photo=open("content/Шпаргалка1.png", 'rb'))
     bot.send_photo(call.message.chat.id, photo=open("content/Шпаргалка2.png", 'rb'))
     bot.send_message(call.message.chat.id, "Эти же равенства можно использовать и в условиях 😌 ")
@@ -89,7 +89,7 @@ def course_functions(call):
     bot.send_message(call.message.chat.id, "Вот мы уже почти изучили почти все базовые команды в Python 🐍 ")
     bot.send_message(call.message.chat.id, "Осталось узнать, что такой ФУНКЦИИ 👑 ")
     bot.send_message(call.message.chat.id, "Функции это некая большая коробка с командами, условиями, и переменными.")
-    bot.send_message(call.message.chat.id, "Чтобы не повтарять одни и те же действия используют чаще функции, чем циклы.")
+    bot.send_message(call.message.chat.id, "Чтобы не повторять одни и те же действия используют чаще функции, чем циклы.")
     bot.send_photo(call.message.chat.id, photo=open("content/Функции.png", 'rb'), reply_markup=complete_stage)
 
 
