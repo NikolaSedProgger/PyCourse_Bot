@@ -3,7 +3,7 @@ from telebot import types
 from datetime import datetime
 from time import sleep
 
-bot = telebot.TeleBot('5038164782:AAG7koIwUCUgdB92eL1PiqTdIplWhmpdxM0')
+bot = telebot.TeleBot(TOKEN)
 
 stage = 0
 complete_stage = types.InlineKeyboardMarkup()
